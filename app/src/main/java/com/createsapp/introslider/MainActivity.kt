@@ -13,6 +13,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    //Use ViewPager2
+
     private val introSliderAdapter = IntroSliderAdapter(
         listOf(
             IntroSlide(
